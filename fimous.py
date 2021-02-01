@@ -15,8 +15,8 @@ nt = 500
 
 for tweet in tweepy.Cursor(api.search, search).items(nt):
     try:
-        print('Tweet Retweeted')
         tweet.retweet()
+        print('Tweet Retweeted')
         time.sleep(900)
     except tweepy.TweepError as e:
         print(e.reason)
