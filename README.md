@@ -1,2 +1,2 @@
-# Bot pro Twitter que dá rt na palavra "fimose"
+# Bot para Twitter que dá rt na palavra "fimose"
 @fimosebot
